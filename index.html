@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#667eea">
     <title>🌟 Random Advice Generator</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
     <div class="container">
-      <header>
-        <h1>🌟 Random Advice Generator</h1>
-        <p>Get wise advice from random people around the world</p>
-      </header>
-
-      <main>
-        <button id="new-advice-btn" class="primary-btn">
-          🎲 Get New Advice
-        </button>
-
-        <div id="result"></div>
-      </main>
-    </div>
-
+        <header>
+            <h1>🌟 Random Advice Generator</h1>
+            <p>Get wise advice from random people around the world</p>
+        </header>
+        
+        <main>
+            <button id="new-advice-btn" class="primary-btn">
+                <span class="btn-text">🎲 Get New Advice</span>
+            </button>
+            
+            <div id="result">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Finding wise advice...</p>
+                </div>
+            </div>
+        </main>
     <script type="module" src="js/app.js"></script>
-  </body>
+</body>
 </html>
